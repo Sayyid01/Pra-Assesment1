@@ -33,7 +33,6 @@ class PersegiFragment : Fragment() {
         binding.hitungPersegi.setOnClickListener {
             luas = (panjang.toInt()) * (lebar.toInt())
             keliling = ((panjang.toInt()) * 2) + ((lebar.toInt()) * 2)
-            binding.hasilLuas = luas
         }
 
         binding.hasilLuas
